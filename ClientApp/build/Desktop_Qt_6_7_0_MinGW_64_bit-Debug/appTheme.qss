@@ -1,0 +1,166 @@
+/*-----QWidget-----*/
+QWidget
+{
+	background-color: qlineargradient(spread:repeat, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(27, 39, 50, 255),stop:1 rgba(47, 53, 74, 255));
+	color: #000000;
+
+}
+
+
+/*-----QLabel-----*/
+QLabel
+{
+	background-color: transparent;
+	color: #c2c7d5;
+	font-size: 13px;
+
+}
+
+
+/*-----QPushButton-----*/
+QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(54, 197, 177, 255));
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 207, 179, 255),stop:1 rgba(70, 255, 230, 255));
+
+}
+
+
+/*-----QCheckBox-----*/
+QCheckBox
+{
+	background-color: transparent;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+
+}
+
+
+/*-----QCheckBox-----*/
+QCheckBox::indicator
+{
+    color: #b1b1b1;
+    background-color: #323232;
+    border: 1px solid darkgray;
+    width: 12px;
+    height: 12px;
+
+}
+
+
+QCheckBox::indicator:checked
+{
+    image:url("./ressources/check.png");
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.511, x2:1, y2:0.511, stop:0 rgba(0, 172, 149, 255),stop:0.995192 rgba(54, 197, 177, 255));;
+    border: 1px solid #607cff;
+
+}
+
+
+QCheckBox::indicator:unchecked:hover
+{
+    border: 1px solid #08b099;
+
+}
+
+
+QCheckBox::disabled
+{
+	color: #656565;
+
+}
+
+
+QCheckBox::indicator:disabled
+{
+	background-color: #656565;
+	color: #656565;
+    border: 1px solid #656565;
+
+}
+
+
+/*-----QLineEdit-----*/
+QLineEdit
+{
+	background-color: #c2c7d5;
+	color: #000;
+	font-weight: bold;
+	border: none;
+	border-radius: 2px;
+	padding: 3px;
+
+}
+
+
+/*-----QListWidget-----*/
+QListWidget {
+    background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(50, 61, 80, 255), stop:1 rgba(44, 49, 69, 255));
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #191919;
+    show-decoration-selected: 0;
+}
+
+QListWidget::item {
+    color: #31cecb;
+    background-color: #454e5e;
+    border: none;
+    padding: 5px;
+    border-radius: 0px;
+    padding-left: 10px;
+    height: 42px;
+}
+
+QListWidget::item:selected {
+    color: #31cecb;
+    background-color: #454e5e;
+}
+
+QListWidget::item:!selected {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+}
+
+QListWidget::item:!selected:hover {
+    color: #bbbcba;
+    background-color: #454e5e;
+    border: none;
+    padding-left: 10px;
+}
+
+/*-----QGroupBox-----*/
+QGroupBox {
+    /*background-color: #2e3b4e;*/ /* Kolor tła */
+    border: 2px solid #1a202e; /* Obramowanie */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+    margin-top: 20px; /* Górny margines */
+    padding: 10px; /* Wewnętrzne marginesy */
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center; /* Pozycja tytułu */
+    background-color: transparent; /* Kolor tła tytułu */
+    color: #c2c7d5; /* Kolor tekstu tytułu */
+    font-size: 20px; /* Rozmiar czcionki tytułu */
+}
+
