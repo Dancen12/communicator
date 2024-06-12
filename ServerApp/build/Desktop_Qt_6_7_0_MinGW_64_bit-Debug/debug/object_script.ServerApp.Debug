@@ -1,0 +1,11 @@
+debug/clienthandler.o
+debug/dbmanager.o
+debug/main.o
+debug/mainwindow.o
+debug/server.o
+debug/serverlogger.o
+debug/qrc_resourcesFile.o
+debug/moc_clienthandler.o
+debug/moc_dbmanager.o
+debug/moc_mainwindow.o
+debug/moc_serverlogger.o

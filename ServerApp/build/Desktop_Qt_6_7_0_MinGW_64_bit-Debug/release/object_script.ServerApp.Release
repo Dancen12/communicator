@@ -1,0 +1,11 @@
+release/clienthandler.o
+release/dbmanager.o
+release/main.o
+release/mainwindow.o
+release/server.o
+release/serverlogger.o
+release/qrc_resourcesFile.o
+release/moc_clienthandler.o
+release/moc_dbmanager.o
+release/moc_mainwindow.o
+release/moc_serverlogger.o
